@@ -1,0 +1,126 @@
+.calculator-title {
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: black;
+    box-shadow:
+    0 0 10px #fff,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2;
+    color: #fff;
+}
+
+* {
+    background-color: black;
+}
+
+/* .calculator-result {
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid #6d93c5 ;
+    text-align: center;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: #000000;
+    padding: 10px;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
+    margin-bottom: 8%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.grid-item {
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    border: 1px solid #fff;
+    box-shadow:
+    0 0 5px #fff,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2,
+    0 0 5px #b85ee2;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item:active {
+    border: 1px solid #fff;
+
+    background: radial-gradient(#000000 40%, #b85ee2 99%);
+
+    box-shadow:
+    0 0 10px #fff,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2;
+}
+
+/* body{
+    color: #b85ee2;
+    width: 50%;
+    margin: 0% 25%;
+    border: 5px solid #b85ee2;
+    text-align: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+body{
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #b85ee2,
+    0 0 21px #b85ee2,
+    0 0 42px #b85ee2,
+    0 0 82px #b85ee2,
+    0 0 92px #b85ee2,
+    0 0 102px #b85ee2,
+    0 0 151px #b85ee2;
+    box-shadow:
+    0 0 10px #fff,
+    0 0 10px #b85ee2,
+    0 0 11px #b85ee2,
+    0 0 12px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2,
+    0 0 10px #b85ee2;
+    
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    color: #fff;
+}
+
+

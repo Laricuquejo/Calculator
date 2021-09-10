@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Calculator.">
+
+     <link rel="stylesheet" type="text/css" href="./calculator.css">
+     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+     </script>
+     <script type="text/javascript" src="./calculator.js"></script>
+
+     <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator-title">
+        <h1 id="textResult">Calculator</h1>
+    </div>
+    <!-- <div class="calculator-result">
+        <h1>test</h1>
+    </div> -->
+    <!-- <div class="calculator-numbers"> -->
+        <!-- <table>
+            <tr>
+                <th>Result</th>
+                <th>Result</th>
+                <th>Result</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>*</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+            </tr> -->
+
+        <!-- </table> -->
+        <!-- <table>
+            <tr>
+                <td>
+                    <button></button>
+                </td>
+            </tr>
+        </table> -->
+    <!-- </div> -->
+    <div class="grid-container">
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">7</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">8</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">9</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">/</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">4</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">5</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number" class="grid-number">6</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">*</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">1</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">2</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">3</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">-</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">0</span>
+        </div>
+        <div class="grid-item" onclick="calculator(this)">
+            <span id="number">=</span>
+        </div>
+        <div class="grid-item" onclick="numClick(this)">
+            <span id="number">+</span>
+        </div>
+        <div class="grid-item" onclick="reset(this)">
+            <span id="number">c</span>
+        </div>
+
+      </div>
+</body>
